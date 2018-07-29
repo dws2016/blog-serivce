@@ -27,9 +27,11 @@
 	</properties>
 
 	<modules>
-		<module>plan</module>
+
 		<module>eureka</module>
 		<module>gateway</module>
+		<module>micro-service</module>
+		<module>config</module>
 	</modules>
 
 

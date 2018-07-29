@@ -7,19 +7,15 @@
         <groupId>org.study</groupId>
         <version>0.0.1</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>eureka</artifactId>
+    <packaging>pom</packaging>
+    <artifactId>microservice</artifactId>
 
-    <description>服务注册中心</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
-            <version>1.3.6.RELEASE</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>plan</module>
+        <module>robot</module>
+    </modules>
 
 </project>
