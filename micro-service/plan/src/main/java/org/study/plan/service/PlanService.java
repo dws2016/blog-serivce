@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @Author dongws
- * @Date 2018/7/29.
- * @Description
+ * @author dongws
+ * @date 2018/7/29
+ * @description
  */
 @Service
 @FeignClient(name = "robot-service")
